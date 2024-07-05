@@ -20,6 +20,10 @@ for( let i = 0; i< 100 ; i++ ){
 
     currentSquare.innerText = i+ 1;
 
+    currentSquare.addEventListener(`click`, function(){
+        console.log([i+1])
+    });
+
 // APPENDO IL QUADRATO NELL'ELEMTO DIV CREATO PRECEDENTEMENTE
     grid.append(currentSquare);
 }
