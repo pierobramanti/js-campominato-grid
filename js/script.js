@@ -22,6 +22,8 @@ for( let i = 0; i< 100 ; i++ ){
 
     currentSquare.addEventListener(`click`, function(){
         console.log([i+1])
+
+        this.classList.toggle("clicked");
     });
 
 // APPENDO IL QUADRATO NELL'ELEMTO DIV CREATO PRECEDENTEMENTE
