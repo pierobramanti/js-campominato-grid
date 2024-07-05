@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100px;
+    background-color: green;
+    margin-bottom: 50px;
+}
+
 #grid{
     max-width: 1200px;
     height: 1200px;
@@ -25,4 +34,11 @@
 
 .clicked{
     background-color: cyan;
+}
+
+.btn{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
 }
