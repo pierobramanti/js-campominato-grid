@@ -9,7 +9,8 @@ function createSquare(){
     return currentElement;
 }
 
-
+// RECUPERO IL PULSANTE//
+const btn= document.getElementById(`play`)
 // RECUPER L'ELEMENTO CHE CONTIENE LA MIA GRIGLIA//
 const grid = document.getElementById(`grid`);
 
