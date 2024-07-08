@@ -17,6 +17,9 @@ const grid = document.getElementById(`grid`);
 // ASSEGNO L' EVENTO CLICK AL PULSANTE//
 btn.addEventListener(`click`, function(){
 // APRO CICLO FOR//
+
+grid.innerHTML= '';
+
 for( let i = 0; i< 100 ; i++ ){
     // CREO IL SINGOLO QUADRATO//
         let currentSquare = createSquare();
